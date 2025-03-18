@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\sgc ar-vr\\holbertonschool-0x02-unity-scripting\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\holbertonschool-0x02-unity-scripting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\sgc ar-vr\\holbertonschool-0x02-unity-scripting\\Temp\\Compiled-Standard.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\Compiled-Standard.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{9C0DF3A1-BCAC-D2F7-E484-FD34B01A6339}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\holbertonschool-0x02-unity-scripting\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0DF3A1-BCAC-D2F7-E484-FD34B01A6339}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\holbertonschool-0x02-unity-scripting\\Assets\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\holbertonschool-0x02-unity-scripting\\Assets\\CameraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CameraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Compiled-Standard.shader",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\sgc ar-vr\\holbertonschool-0x02-unity-scripting\\Temp\\Compiled-Standard.shader",
-              "RelativeDocumentMoniker": "Temp\\Compiled-Standard.shader",
-              "ToolTip": "C:\\Users\\User\\Desktop\\sgc ar-vr\\holbertonschool-0x02-unity-scripting\\Temp\\Compiled-Standard.shader",
-              "RelativeToolTip": "Temp\\Compiled-Standard.shader",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAowKEAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-03-15T20:40:08.156Z",
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\holbertonschool-0x02-unity-scripting\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\holbertonschool-0x02-unity-scripting\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:06:21.35Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\holbertonschool-0x02-unity-scripting\\Assets\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\holbertonschool-0x02-unity-scripting\\Assets\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\PlayerController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T19:02:50.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\holbertonschool-0x02-unity-scripting\\Assets\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\CameraController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\holbertonschool-0x02-unity-scripting\\Assets\\CameraController.cs",
+              "RelativeToolTip": "Assets\\CameraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:51:17.861Z"
             }
           ]
         }

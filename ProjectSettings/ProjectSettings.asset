@@ -633,9 +633,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 3232d430-db78-48a9-9d3d-4095451787f0
+  cloudProjectId: ad88f968-80a2-4297-8591-1dfefce565cb
   projectName: 0x02-unity-scripting
-  organizationId: carrie-ybay
+  organizationId: unity_35e6345e2c6b71dd9a36
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
