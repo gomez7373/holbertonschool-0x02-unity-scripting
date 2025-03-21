@@ -110,3 +110,11 @@ text.md:Zone.Identifier
 holbertonschool-0x02-unity-scripting.sln:Zone.Identifier
 README.md:Zone.Identifier
 
+# Ignore VSCode, Visual Studio, and Rider files
+.vs/
+obj/
+bin/
+
+# Ignore Windows metadata files
+*.Zone.Identifier
+
