@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private int score = 0;
+
     public float speed = 5f; // Speed variable to adjust movement speed in Inspector
 
     private Rigidbody rb;
@@ -24,5 +26,16 @@ public class PlayerController : MonoBehaviour
 
         // Apply movement force
         rb.AddForce(movement * speed);
+    }
+
+    // 🟡 This function goes HERE (inside the class, outside of any other function)
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Pickup"))
+        {
+            score++;
+            Debug.Log("Score: " + score);
+            other.gameObject.SetActive(false); // Or Destroy(other.gameObject);
+        }
     }
 }
