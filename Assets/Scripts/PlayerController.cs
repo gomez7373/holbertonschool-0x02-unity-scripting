@@ -5,37 +5,44 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private int score = 0;
+    public int health = 5; // 🟥 Agregado para Task 6
 
-    public float speed = 5f; // Speed variable to adjust movement speed in Inspector
+    public float speed = 5f;
 
     private Rigidbody rb;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>(); // Get the Rigidbody component attached to the Player
+        rb = GetComponent<Rigidbody>();
     }
 
     void FixedUpdate()
     {
-        // Get input from WASD or Arrow Keys
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
 
-        // Create movement vector (X and Z axes only, no Y-axis movement)
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-
-        // Apply movement force
         rb.AddForce(movement * speed);
     }
 
-    // 🟡 This function goes HERE (inside the class, outside of any other function)
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Pickup"))
         {
             score++;
             Debug.Log("Score: " + score);
-            other.gameObject.SetActive(false); // Or Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
+        }
+
+        if (other.CompareTag("Trap")) // 🔥 Task 6
+        {
+            health--;
+            Debug.Log("Health: " + health);
+        }
+
+        if (other.CompareTag("Goal")) // ✅ Task 8
+        {
+            Debug.Log("You win!");
         }
     }
 }
